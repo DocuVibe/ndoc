@@ -1,0 +1,19 @@
+title: My NodeDoc Documentation
+description: This is a sample documentation site for NodeDoc.
+nav:
+  - title: Home
+    path: /
+  - title: String Tools
+    path: /string-tools
+  - title: Sub Page
+    path: /sub/page
+css:
+  - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
+header: |
+  <header>
+    <h1>Welcome to {{title}}</h1>
+  </header>
+footer: |
+  <footer>
+    <p>© 2025 My NodeDoc Documentation</p>
+  </footer>

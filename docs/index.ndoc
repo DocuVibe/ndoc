@@ -1,0 +1,7 @@
+# stringTools
+Utilities for string manipulation in Node.js.
+
+## reverseString
+Reverses the characters in a string.
+- **str** (`string`): The input string to reverse.
+- **Returns**: `string` - The reversed string.

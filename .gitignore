@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Build output
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment files
+.env

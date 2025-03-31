@@ -1,0 +1,34 @@
+{
+  "name": "nodedoc",
+  "version": "1.0.0",
+  "description": "A lightweight, Docsify-inspired documentation generator for Node.js projects",
+  "main": "src/index.js",
+  "bin": {
+    "ndoc": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet! Contributions welcome.\" && exit 0"
+  },
+  "keywords": [
+    "documentation",
+    "nodejs",
+    "docsify",
+    "generator"
+  ],
+  "author": "Om Ghimire omghimire@omprasadghimire.com.np",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "js-yaml": "^4.1.0",
+    "ws": "^8.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nodedoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nodedoc/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodedoc#readme"
+}
